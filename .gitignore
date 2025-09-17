@@ -1,8 +1,17 @@
+# Logs
 *.log
+/storage/logs
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Env files
 .env
 .env.backup
 .env.production
+
+# Editor configs
 .phpactor.json
 .phpunit.result.cache
 /.fleet
@@ -12,13 +21,23 @@
 /.vscode
 /.zed
 /auth.json
+
+# Node & Laravel build
 /node_modules
 /public/build
 /public/hot
 /public/storage
+
+# Storage sensitive
 /storage/*.key
 /storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Vendors
 /vendor
+
+# Homestead
 Homestead.json
 Homestead.yaml
-Thumbs.db
