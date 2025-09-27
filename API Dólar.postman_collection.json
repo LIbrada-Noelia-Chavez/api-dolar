@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "38251925-8dfa-44b4-9868-f1fa426ae910",
+		"name": "API Dólar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48838799",
+		"_collection_link": "https://nc0918795-3952008.postman.co/workspace/5da61750-f8b5-40eb-802f-08031142fb96/collection/48838799-38251925-8dfa-44b4-9868-f1fa426ae910?action=share&source=collection_link&creator=48838799"
+	},
+	"item": [
+		{
+			"name": "Get Cotizaciones",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Promedio",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Convertir",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Sync Cotizaciones",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
